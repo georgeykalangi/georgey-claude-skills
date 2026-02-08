@@ -37,6 +37,48 @@
       "description": "Write internal communications including status updates, announcements, and newsletters using company formats. Use for team updates, leadership comms, or company-wide announcements.",
       "source": "./skills/business/internal-comms",
       "category": "business"
+    },
+    {
+      "name": "fastapi-scaffold",
+      "description": "Scaffold new FastAPI projects with async SQLAlchemy, Pydantic v2, JWT auth, Docker, and Alembic migrations. Use when starting a new backend project or API service.",
+      "source": "./skills/engineering/fastapi-scaffold",
+      "category": "engineering"
+    },
+    {
+      "name": "ai-agent-debugger",
+      "description": "Debug and optimize multi-agent LLM workflows built with CrewAI, LangChain, and similar frameworks. Use when agents are looping, hallucinating, or producing wrong tool calls.",
+      "source": "./skills/engineering/ai-agent-debugger",
+      "category": "engineering"
+    },
+    {
+      "name": "rag-pipeline",
+      "description": "Build and optimize RAG pipelines with document chunking, embedding selection, vector DB setup, reranking, and evaluation. Use when building or improving retrieval-augmented generation systems.",
+      "source": "./skills/engineering/rag-pipeline",
+      "category": "engineering"
+    },
+    {
+      "name": "prompt-engineering",
+      "description": "Systematic prompt optimization framework with templates, patterns, A/B testing, and provider-specific tips. Use when writing, improving, or debugging LLM prompts.",
+      "source": "./skills/engineering/prompt-engineering",
+      "category": "engineering"
+    },
+    {
+      "name": "python-test-generator",
+      "description": "Generate comprehensive Python test suites with pytest, async support, LLM API mocking, and FastAPI fixtures. Use when writing tests or setting up test infrastructure.",
+      "source": "./skills/engineering/python-test-generator",
+      "category": "engineering"
+    },
+    {
+      "name": "docker-deploy",
+      "description": "Docker and deployment workflows with multi-stage builds, docker-compose, Kubernetes manifests, and LLM scaling patterns. Use when containerizing apps or setting up deployments.",
+      "source": "./skills/operations/docker-deploy",
+      "category": "operations"
+    },
+    {
+      "name": "git-workflow",
+      "description": "Git workflow automation with conventional commits, branch naming, PR templates, rebase guidance, and release tagging. Use when committing, branching, or managing releases.",
+      "source": "./skills/engineering/git-workflow",
+      "category": "engineering"
     }
   ]
 }
