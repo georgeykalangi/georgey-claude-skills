@@ -1,0 +1,42 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "georgey-claude-skills",
+  "version": "1.0.0",
+  "description": "Georgey's Claude Skills for productivity, integrations, and workflows",
+  "owner": {
+    "name": "Georgey",
+    "email": "georgey@example.com"
+  },
+  "plugins": [
+    {
+      "name": "confluence-docs",
+      "description": "Search, read, create, and update Confluence pages. Use when working with company wiki, documentation, or knowledge base content.",
+      "source": "./skills/integrations/confluence-docs",
+      "category": "integrations"
+    },
+    {
+      "name": "code-review",
+      "description": "Perform comprehensive code reviews following company standards. Use when reviewing pull requests, checking code quality, or ensuring best practices.",
+      "source": "./skills/engineering/code-review",
+      "category": "engineering"
+    },
+    {
+      "name": "incident-response",
+      "description": "Guide incident response workflow with runbooks, communication templates, and escalation procedures. Use during production incidents or outages.",
+      "source": "./skills/operations/incident-response",
+      "category": "operations"
+    },
+    {
+      "name": "technical-spec",
+      "description": "Create technical specification documents following company template. Use when designing new features, systems, or architectural changes.",
+      "source": "./skills/documentation/technical-spec",
+      "category": "documentation"
+    },
+    {
+      "name": "internal-comms",
+      "description": "Write internal communications including status updates, announcements, and newsletters using company formats. Use for team updates, leadership comms, or company-wide announcements.",
+      "source": "./skills/business/internal-comms",
+      "category": "business"
+    }
+  ]
+}
